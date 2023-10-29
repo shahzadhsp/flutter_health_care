@@ -8,23 +8,23 @@ class UpcomingSchedule extends StatefulWidget {
 
 class _UpcomingScheduleState extends State<UpcomingSchedule> {
   //DateTime dateTime = DateTime.now();
-    String _formattedDateTime = '';
-    @override
-  void initState() {
-    super.initState();
-    // Call a function to update the date and time initially
-    _updateDateTime();
-  }
+  //   String _formattedDateTime = '';
+  //   @override
+  // void initState() {
+  //   super.initState();
+  //   // Call a function to update the date and time initially
+  //   _updateDateTime();
+  // }
 
   // Function to update the date and time
-  void _updateDateTime() {
-    final now = DateTime.now();
-    final formattedDate = DateFormat('MMMM d, y').format(now);
-    final formattedTime = DateFormat('HH:mm:ss').format(now);
-    setState(() {
-      _formattedDateTime = '$formattedDate - $formattedTime';
-    });
-  }
+  // void _updateDateTime() {
+  //   final now = DateTime.now();
+  //   final formattedDate = DateFormat('MMMM d, y').format(now);
+  //   final formattedTime = DateFormat('HH:mm:ss').format(now);
+  //   setState(() {
+  //     _formattedDateTime = '$formattedDate - $formattedTime';
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
